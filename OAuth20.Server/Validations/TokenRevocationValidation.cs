@@ -3,6 +3,7 @@ using OAuth20.Server.Models;
 using OAuth20.Server.OauthResponse;
 using System.Text;
 using OAuth20.Server.Validations.Response;
+using OAuth20.Server.Common;
 
 namespace OAuth20.Server.Validations
 {
@@ -120,3 +121,4 @@ namespace OAuth20.Server.Validations
             return result;
         }
     }
+}
